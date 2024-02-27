@@ -16,6 +16,11 @@ Este é um projeto do CHALLENGE ONE T6 da Alura, um Decodificador de texto desen
 - CSS
 - JavaScript
 
+## Deploy
+- GitHub pages: https://github.com/MarceloRodrigues1853/ChallengeONE_T06-Decodificador-Texto/deployments/github-pages
+
+- Vercel: https://challenge-one-t06-decodificador-texto.vercel.app/
+
 ## Como Utilizar
 
 1. Clone este repositório.
