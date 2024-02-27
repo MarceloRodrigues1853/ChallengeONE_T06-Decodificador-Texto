@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./assets/img/logo_Alura.png" alt="logo da Alura" />
+      <h1>Decodificador</h1>
+    </header>
+
+    <main class="container">
+      <section class="input-section">
+        <textarea class="text-input" placeholder="Digite seu Texto"></textarea>
+
+        <section class="button-section">
+          <button class="btn-criptografar">Criptografar</button>
+          <button class="btn-descriptografar">Descriptografar</button>
+        </section>
+      </section>
+
+      <section class="output-section">
+        <div id="div-aparecer">
+          <textarea class="div-mensagem" readonly></textarea>
+          <button class="btn-copiar">Copiar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>&copy; 2024 Marcelo Rodrigues. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
